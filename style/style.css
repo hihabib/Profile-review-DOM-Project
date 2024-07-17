@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f8;
+}
+.review-container {
+  background-color: #fff;
+}
+.review-profile-name {
+  font-weight: bold;
+  margin: 0;
+}
+.review-profile-profession {
+  color: #49a6e9;
+}
+.review-profile-description {
+  color: hsl(210, 22%, 49%);
+}
+
+/* Button Style */
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+/* Optional: Disable button outline on focus */
+button:focus {
+  outline: none;
+}
+
+.review-container {
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+}
